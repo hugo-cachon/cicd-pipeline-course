@@ -27,5 +27,6 @@ jobs:
       - name: Create artifact
         uses: actions/upload-artifact@v2
         with:
+          context: ./frontend-main
           name: app-artifact
           path: build
